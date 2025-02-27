@@ -7,6 +7,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FixacaoConceitosBasicos1", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestesFixacaoConceitosBasicos1", "TestesFixacaoConceitosBasicos1\TestesFixacaoConceitosBasicos1.csproj", "{26D21359-6CD3-49E0-86B4-9D3C7C59DBEA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{E91EFB6E-FB5E-482A-AF58-C2F6AE6B854B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "classroom", "classroom", "{9309D99B-5889-4E7E-8B1C-7BB5F5A1BC5E}"
+	ProjectSection(SolutionItems) = preProject
+		autograding.json = autograding.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{C0291177-D160-4D6A-A548-E3F822FFFC19}"
+	ProjectSection(SolutionItems) = preProject
+		test.yml = test.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +36,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9309D99B-5889-4E7E-8B1C-7BB5F5A1BC5E} = {E91EFB6E-FB5E-482A-AF58-C2F6AE6B854B}
+		{C0291177-D160-4D6A-A548-E3F822FFFC19} = {E91EFB6E-FB5E-482A-AF58-C2F6AE6B854B}
 	EndGlobalSection
 EndGlobal
